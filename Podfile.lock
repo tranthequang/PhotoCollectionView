@@ -2,11 +2,20 @@ PODS:
   - SwiftyImageCache (1.2.2)
 
 DEPENDENCIES:
-  - SwiftyImageCache (~> 1.2.2)
+  - SwiftyImageCache (from `https://github.com/tranthequang/SwiftyImageCache.git`)
+
+EXTERNAL SOURCES:
+  SwiftyImageCache:
+    :git: https://github.com/tranthequang/SwiftyImageCache.git
+
+CHECKOUT OPTIONS:
+  SwiftyImageCache:
+    :commit: 07e5d1d3b75f8020abaf378eb9df63759f1466b2
+    :git: https://github.com/tranthequang/SwiftyImageCache.git
 
 SPEC CHECKSUMS:
-  SwiftyImageCache: 948188de37a1d637f6970c20bc526dd8f7fb7346
+  SwiftyImageCache: 05bd06db35ab7fdcb96d1b5aed202ea55585c752
 
-PODFILE CHECKSUM: 7cdea2d05b8f1b1bc6c384595b010d32e5358b15
+PODFILE CHECKSUM: 69ef10023e2de69ebfc01cd3130b0eefe2954166
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.11.2

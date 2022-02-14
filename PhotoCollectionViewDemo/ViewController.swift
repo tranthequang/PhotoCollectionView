@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         tableView.estimatedRowHeight = 200
-        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.rowHeight = UITableView.automaticDimension
         tableView.tableFooterView = nil
     }
     

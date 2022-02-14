@@ -20,7 +20,7 @@ public class PhotoView: UIView {
         return imageView
     }()
     public lazy var loadingView: UIActivityIndicatorView! = {
-        let loadingView = UIActivityIndicatorView(activityIndicatorStyle: .white)
+        let loadingView = UIActivityIndicatorView(style: .white)
         loadingView.hidesWhenStopped = true
         loadingView.translatesAutoresizingMaskIntoConstraints = false
         
